@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./scripts/app.js" defer></script>
+    <title>Peleton Biking Monitor</title>
+</head>
+<body>
+    <div id="index-biker-container"></div>
+    <div id="message-container"></div>
+    <div id="show-biker-container"></div>
+    
+    <form id="create-biker-form">
+        <input type="text" name="firstName" placeholder="first name">
+        <input type="text" name="lastName" placeholder="last name">
+        <input type="text" name="class" placeholder="class">
+        <input type="number" name="miles" placeholder="miles">
+        <input type="submit" value="Create Biker">
+      </form>
+
+      <button data-id="${biker._id}">Delete Biker</button>
+</body>
+</html>
